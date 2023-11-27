@@ -23,7 +23,6 @@ input, textarea {
     padding: 0;
 }
 
-
 /*main nav*/
 
 #main-nav label img {
@@ -60,20 +59,19 @@ input, textarea {
     padding: 10px 0 10px 0;
     text-align: center;
     color: #626262;
- }
+}
  
  #main-nav ul li {
     border-bottom: 1px solid #efefef;
- }
+}
  
  #main-nav ul li:first-child {
     border-top: 1px solid #efefef;
- }
+}
  
  #main-nav ul li:last-child {
     margin-bottom: 10px;
- }
- 
+}
  
  #logo {
     margin-bottom: 20px;
@@ -255,9 +253,9 @@ label span {
 
 /*reward*/
 
-.gourment {
+#gourmet-h2 {
     background-image: url(../images/wine-hero.jpg);
-    height: 288px;
+    height: px;
 }
 
 
@@ -272,8 +270,6 @@ label span {
     background-color: white;
     font-size: 12px;
     padding: 10px 15px 20px 15px;
-    border-bottom: 3px solid #CF6666;
-    display: flex;
 }
 
 #gourmet-h2 span {
@@ -303,6 +299,7 @@ label span {
     padding-bottom: 15px;
     font-size: 11px;
 }
+
 
 /*scroll-images*/
 

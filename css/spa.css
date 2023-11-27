@@ -23,6 +23,14 @@ input, textarea {
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 /*main nav*/
 
 #main-nav label img {
@@ -82,7 +90,7 @@ input, textarea {
  /*main-hero*/
 
  #hero {
-    background-image: url(../images/Dinning-hero.jpg);
+    background-image: url(../images/spa-hero.jpg);
     height: 230px;
  }
 
@@ -140,3 +148,196 @@ input, textarea {
 
 /*main-hero*/
 
+ #hero {
+    background-image: url(../images/spa-hero.jpg);
+    height: 230px;
+ }
+
+.book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: #3B3B3B;
+}
+
+#book-now-hero {
+    height: 67px;
+}
+ 
+#hero-heading-box {
+    align-self: end;
+    background-color: white;
+}
+
+#hero-heading-box h2 span {
+    color: #9a2018;
+    font-size: 12px;
+}
+
+#hero-heading-box h2 {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+/*dropdown-extension*/
+
+.dropdown1 label img {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.dropdown2 label img, .dropdown3 label img, .dropdown4 label img, .dropdown5 label img, .dropdown6 label img, .dropdown7 label img, .dropdown8 label img {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.dropdown1 input, .dropdown2 input, .dropdown3 input, .dropdown4 input, .dropdown5 input, .dropdown6 input, .dropdown7 input, .dropdown8 input {
+    display: none;
+}
+
+label span {
+    color: #C54242;
+}
+
+#dropdown-detail-1,  #dropdown-detail-2,  #dropdown-detail-3,  #dropdown-detail-4,  #dropdown-detail-5,  #dropdown-detail-6,  #dropdown-detail-7,  #dropdown-detail-8 {
+    display: none;
+}
+
+.dropdown1 input:checked ~ #dropdown-detail-1 {
+    display: block;
+}
+
+.dropdown2 input:checked ~ #dropdown-detail-2 {
+    display: block;
+}
+
+.dropdown3 input:checked ~ #dropdown-detail-3 {
+    display: block;
+}
+
+.dropdown4 input:checked ~ #dropdown-detail-4 {
+    display: block;
+}
+
+.dropdown5 input:checked ~ #dropdown-detail-5 {
+    display: block;
+}
+
+.dropdown6 input:checked ~ #dropdown-detail-6 {
+    display: block;
+}
+
+.dropdown7 input:checked ~ #dropdown-detail-7 {
+    display: block;
+}
+
+.dropdown8 input:checked ~ #dropdown-detail-8 {
+    display: block;
+}
+
+.dropdown1 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown2 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown3 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown4 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown5 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown6 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown7 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+.dropdown8 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+/*dropdown styling*/
+
+.dropdown1, .dropdown2, .dropdown3, .dropdown4, .dropdown5, .dropdown6, .dropdown7, .dropdown8 {
+    border-bottom: #CBCBCB solid;
+    /*border-left: #CBCBCB solid;
+    border-right: #CBCBCB solid;*/
+    padding: 5px 0;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#dropdown-detail-1,  #dropdown-detail-2,  #dropdown-detail-3,  #dropdown-detail-4,  #dropdown-detail-5,  #dropdown-detail-6,  #dropdown-detail-7,  #dropdown-detail-8 {
+    font-size: 12px;
+    padding: 0;
+}
+
+#dropdown-detail-1 ul, #dropdown-detail-2 ul, #dropdown-detail-3 ul, #dropdown-detail-4 ul, #dropdown-detail-5 ul, #dropdown-detail-6 ul, #dropdown-detail-7 ul, #dropdown-detail-8 ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   width: 361px;
+   padding: 15px 5px;
+}
+
+#dropdown-detail-1 span, #dropdown-detail-2 span, #dropdown-detail-3 span, #dropdown-detail-4 span, #dropdown-detail-5 span, #dropdown-detail-6 span, #dropdown-detail-7 span, #dropdown-detail-8 span {
+    font-weight: bold;
+}
+
+ /* 8. ---Footer--- */
+ 
+ #footer-hero {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
