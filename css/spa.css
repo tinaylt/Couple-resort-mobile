@@ -1,0 +1,25 @@
+/*General Styles*/
+
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+}
+
+body {
+    color: #5F5F5F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
