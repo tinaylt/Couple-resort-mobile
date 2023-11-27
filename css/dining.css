@@ -153,6 +153,10 @@ input, textarea {
     display: none;
 }
 
+label span {
+    color: #C54242;
+}
+
 #dropdown-detail-1,  #dropdown-detail-2,  #dropdown-detail-3,  #dropdown-detail-4,  #dropdown-detail-5,  #dropdown-detail-6,  #dropdown-detail-7,  #dropdown-detail-8 {
     display: none;
 }
