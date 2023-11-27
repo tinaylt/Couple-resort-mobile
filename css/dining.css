@@ -1,0 +1,141 @@
+/*General Styles*/
+
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+}
+
+body {
+    color: #5F5F5F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/*main nav*/
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+
+ /*   ~ sibling selector   */
+
+#main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ }
+ 
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+
+ /*main-hero*/
+
+ #hero {
+    background-image: url(../images/Dinning-hero.jpg);
+    height: 230px;
+ }
+
+.book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: #3B3B3B;
+}
+
+#book-now-hero {
+    height: 67px;
+}
+ 
+#hero-heading-box {
+    align-self: end;
+    background-color: white;
+}
+
+#hero-heading-box h2 span {
+    color: #9a2018;
+    font-size: 12px;
+}
+
+#hero-heading-box h2 {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+}
+
+#dining-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#dining-summary span {
+    font-weight: bold;
+}
+
+/*dropdown-extension*/

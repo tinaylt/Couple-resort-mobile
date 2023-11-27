@@ -27,8 +27,8 @@ Couples Resort Responsive Build
  } 
  
  body {
-    color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
+    color: #5F5F5F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
  }
  
  a {
@@ -126,7 +126,7 @@ Couples Resort Responsive Build
  }
  
  .book-now:hover {
-    background-color: rgb(196, 28, 28);
+    background-color: #3B3B3B;
  }
  
  #book-now-hero {
