@@ -151,7 +151,6 @@ Couples Resort Responsive Build
     margin-top: 20px;
     border-top: solid 3px #CF6666;
     padding-top: 20px;
- 
 }
  
  #hero-summary p {
@@ -437,3 +436,602 @@ Couples Resort Responsive Build
 
 /*dining page*/
 
+ /*main-hero*/
+
+ #dining-hero {
+   background-image: url(../images/Dinning-hero.jpg);
+   height: 230px;
+}
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: #3B3B3B;
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box-dining {
+   align-self: end;
+   background-color: white;
+}
+
+#hero-heading-box-dining h2 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#hero-heading-box-dining h2 {
+   font-size: 14px;
+   padding: 10px 15px;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+#dining-summary p {
+   font-size: 14px;
+   line-height: 15px;
+   margin-bottom: 10px;
+}
+
+#dining-summary span {
+   font-weight: bold;
+}
+
+/*dropdown-extension*/
+
+.dropdown1 label img, .dropdown2 label img, .dropdown3 label img, .dropdown4 label img, .dropdown5 label img, .dropdown6 label img, .dropdown7 label img, .dropdown8 label img {
+   width: 10px;
+   height: 10px;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: all .5s ease;
+}
+
+.dropdown1 input, .dropdown2 input, .dropdown3 input, .dropdown4 input, .dropdown5 input, .dropdown6 input, .dropdown7 input, .dropdown8 input {
+   display: none;
+}
+
+label span {
+   color: #C54242;
+}
+
+#dropdown-detail-1,  #dropdown-detail-2,  #dropdown-detail-3,  #dropdown-detail-4,  #dropdown-detail-5,  #dropdown-detail-6,  #dropdown-detail-7,  #dropdown-detail-8 {
+   display: none;
+}
+
+.dropdown1 input:checked ~ #dropdown-detail-1 {
+   display: block;
+}
+
+.dropdown2 input:checked ~ #dropdown-detail-2 {
+   display: block;
+}
+
+.dropdown3 input:checked ~ #dropdown-detail-3 {
+   display: block;
+}
+
+.dropdown4 input:checked ~ #dropdown-detail-4 {
+   display: block;
+}
+
+.dropdown5 input:checked ~ #dropdown-detail-5 {
+   display: block;
+}
+
+.dropdown6 input:checked ~ #dropdown-detail-6 {
+   display: block;
+}
+
+.dropdown7 input:checked ~ #dropdown-detail-7 {
+   display: block;
+}
+
+.dropdown8 input:checked ~ #dropdown-detail-8 {
+   display: block;
+}
+
+.dropdown1 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown2 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown3 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown4 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown5 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown6 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown7 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown8 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+/*dropdown styling*/
+
+.dropdown1, .dropdown2, .dropdown3, .dropdown4, .dropdown5, .dropdown6, .dropdown7, .dropdown8 {
+   border-bottom: #CBCBCB solid;
+   /*border-left: #CBCBCB solid;
+   border-right: #CBCBCB solid;*/
+   padding: 5px 0;
+   justify-content: center;
+   font-size: 15px;
+}
+
+#dropdown-detail-1,  #dropdown-detail-2,  #dropdown-detail-3,  #dropdown-detail-4,  #dropdown-detail-5,  #dropdown-detail-6,  #dropdown-detail-7,  #dropdown-detail-8 {
+   font-size: 12px;
+   padding: 5px 0;
+}
+
+#dropdown-detail-1 ul, #dropdown-detail-2 ul, #dropdown-detail-3 ul, #dropdown-detail-4 ul, #dropdown-detail-5 ul, #dropdown-detail-6 ul, #dropdown-detail-7 ul, #dropdown-detail-8 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 361px;
+  padding: 10px 15px;
+}
+
+#dropdown-detail-1 span, #dropdown-detail-2 span, #dropdown-detail-3 span, #dropdown-detail-4 span, #dropdown-detail-5 span, #dropdown-detail-6 span, #dropdown-detail-7 span, #dropdown-detail-8 span {
+   font-weight: bold;
+}
+
+/*reward*/
+
+#gourmet-heading-box {
+   background-image: url(../images/wine-hero.jpg);
+   height: 280px;
+}
+
+#wine-reward img {
+   width: 91px;
+   height: 168px;
+   float: left;
+}
+
+#gourmet-con {
+   background-color: #fff;
+   align-self: end;
+   font-size: 12px;
+   padding: 10px 15px;
+}
+
+#gourmet-con span {
+   color: #9a2018;
+   font-size: 11px;
+}
+
+.wine-h1 p, .wine-h2 p {
+   font-size: 12px;
+   line-height: 18px;
+}
+
+.wine-h1 h3, .wine-h2 h3 {
+   font-size: 11px;
+   padding-bottom: 10px;
+}
+
+.wine-h2 {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+/*scroll-images*/
+
+#scoll-images {
+   overflow: auto;
+   white-space: nowrap;
+}
+
+/*Spa Page */
+
+ /*main-hero*/
+
+ #spa-page-hero {
+   background-image: url(../images/spa-hero.jpg);
+   height: 230px;
+}
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: #3B3B3B;
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box {
+   align-self: end;
+   background-color: white;
+}
+
+#hero-heading-box h2 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#hero-heading-box h2 {
+   font-size: 14px;
+   padding: 10px 15px;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+#dining-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#dining-summary span {
+   font-weight: bold;
+}
+
+/*main-hero*/
+
+#hero {
+   background-image: url(../images/spa-hero.jpg);
+   height: 230px;
+}
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: #3B3B3B;
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box {
+   align-self: end;
+   background-color: white;
+}
+
+#hero-heading-box h2 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#hero-heading-box h2 {
+   font-size: 14px;
+   padding: 10px 15px;
+}
+
+/*dropdown-extension*/
+
+.dropdown9 label img {
+   width: 10px;
+   height: 10px;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: all .5s ease;
+}
+
+.dropdown10 label img, .dropdown11 label img, .dropdown12 label img, .dropdown13 label img, .dropdown14 label img, .dropdown15 label img, .dropdown16 label img {
+   width: 10px;
+   height: 10px;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: all .5s ease;
+}
+
+.dropdown9 input, .dropdown10 input, .dropdown11 input, .dropdown12 input, .dropdown13 input, .dropdown14 input, .dropdown15 input, .dropdown16 input {
+   display: none;
+}
+
+label span {
+   color: #C54242;
+}
+
+#dropdown-detail-9,  #dropdown-detail-10,  #dropdown-detail-11,  #dropdown-detail-12,  #dropdown-detail-13,  #dropdown-detail-14,  #dropdown-detail-15,  #dropdown-detail-16 {
+   display: none;
+}
+
+.dropdown9 input:checked ~ #dropdown-detail-9 {
+   display: block;
+}
+
+.dropdown10 input:checked ~ #dropdown-detail-10 {
+   display: block;
+}
+
+.dropdown11 input:checked ~ #dropdown-detail-11 {
+   display: block;
+}
+
+.dropdown12 input:checked ~ #dropdown-detail-12 {
+   display: block;
+}
+
+.dropdown13 input:checked ~ #dropdown-detail-13 {
+   display: block;
+}
+
+.dropdown14 input:checked ~ #dropdown-detail-14 {
+   display: block;
+}
+
+.dropdown15 input:checked ~ #dropdown-detail-15 {
+   display: block;
+}
+
+.dropdown16 input:checked ~ #dropdown-detail-16 {
+   display: block;
+}
+
+.dropdown9 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown10 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown11 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown12 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown13 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown14 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown15 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown16 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+.dropdown16 {
+   margin-bottom: 10px;
+}
+
+/*dropdown styling*/
+
+.dropdown9, .dropdown10, .dropdown11, .dropdown12, .dropdown13, .dropdown14, .dropdown15, .dropdown16 {
+   border-bottom: #CBCBCB solid;
+   /*border-left: #CBCBCB solid;
+   border-right: #CBCBCB solid;*/
+   padding: 5px 0;
+   justify-content: center;
+   font-size: 15px;
+}
+
+#dropdown-detail-9,  #dropdown-detail-10,  #dropdown-detail-11,  #dropdown-detail-12,  #dropdown-detail-13,  #dropdown-detail-14,  #dropdown-detail-15,  #dropdown-detail-16 {
+   font-size: 12px;
+   padding: 0;
+}
+
+#dropdown-detail-9 ul, #dropdown-detail-10 ul, #dropdown-detail-11 ul, #dropdown-detail-12 ul, #dropdown-detail-13 ul, #dropdown-detail-14 ul, #dropdown-detail-15 ul, #dropdown-detail-16 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 361px;
+  padding: 15px 5px;
+}
+
+#dropdown-detail-9 span, #dropdown-detail-10 span, #dropdown-detail-11 span, #dropdown-detail-12 span, #dropdown-detail-13 span, #dropdown-detail-14 span, #dropdown-detail-15 span, #dropdown-detail-16 span {
+   font-weight: bold;
+}
+
+/*policy*/
+
+#policy-heading-box {
+   background-image: url(../images/policy.jpg);
+   height: 217px;
+}
+
+#policy-box {
+   align-self: end;
+   background-color: #fff;
+}
+
+#policy-box span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#policy-box h2 {
+   font-size: 14px;
+   padding: 10px 15px;
+}
+
+#policy-summary p {
+   font-size: 12px;
+   line-height: 15px;
+}
+
+/*Unforeseen Circumstances*/
+
+#unforseen {
+   padding: 10px 0;
+}
+
+#unforseen h3 {
+   font-size: 14px;
+}
+
+#unforseen-heading-box {
+   border-left: 5px #992119 solid;
+   padding: 5px;
+}
+
+#unforseen p {
+   font-size: 12px;
+   padding-top: 10px;
+   line-height: 15px;
+}
+
+#unforseen span {
+   font-style: italic;
+   font-weight: bold;
+}
+
+/*Winning Reward*/
+
+#winning-reward-heading {
+   background-image: url(../images/reward.jpg);
+   height: 217px;
+}
+
+#winning-reward-box {
+   align-self: end;
+   background-color: #fff;
+}
+
+#winning-reward-box span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#winning-reward-box h2 {
+   font-size: 14px;
+   padding: 10px 15px;
+}
+
+#winning-reward-summary {
+   font-size: 12px;
+   line-height: 15px;
+}
+
+#winning-reward-summary2 {
+   font-size: 12px;
+   margin-left: 25%;
+   width: 200px;
+   padding-top: 10px;
+   line-height: 15px;
+}
+
+#article-link p {
+   font-size: 11px;
+   justify-content: center;
+}
+
+#article-link {
+   padding-bottom: 10px;
+}
+
+#reward-logo img {
+   width: 180px;
+   height: 203px;
+   padding-top: 20%;
+}
+
+/*Spa product*/
+
+#spa-product-heading {
+   background-image: url(../images/skincare.jpg);
+   height: 217px;
+}
+
+#spa-product-box {
+   align-self: end;
+   background-color: #fff;
+}
+
+#spa-product-box h2 {
+   font-size: 14px;
+   padding: 10px 15px;
+}
+
+#spa-product-box span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#spa-product-summary p {
+   font-size: 12px;
+   line-height: 14px;
+}
+
+#spa-product-topic p {
+   font-size: 12px;
+   font-weight: bold;
+}
+
+#spa-product-topic {
+   padding-bottom: 10px;
+}
+
+#brand-logo img {
+   width: 131px;
+   display: flex;
+}
+
+#brand-intro {
+   padding: 15px 0 0 15px;
+   width: 260px;
+}
