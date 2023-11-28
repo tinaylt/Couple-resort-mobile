@@ -256,46 +256,39 @@ label span {
 #gourmet-heading-box {
     background-image: url(../images/wine-hero.jpg);
     height: 280px;
-
 }
 
 #wine-reward img {
     width: 91px;
     height: 168px;
-    padding-top: 10px;
+    float: left;
+}
+ 
+#gourmet-con {
+    background-color: #fff;
+    align-self: end;
+    font-size: 12px;
+    padding: 10px 15px;
 }
 
-#gourmet-h2 {
-    background-color: white;
-}
-
-
-#gourmet-h2 span {
+#gourmet-con span {
     color: #9a2018;
     font-size: 11px;
 }
 
-#wine-p1 {
+.wine-h1 p, .wine-h2 p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.wine-h1 h3, .wine-h2 h3 {
     font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.wine-h2 {
     padding-top: 10px;
-    line-height: 15px;
-}
-
-#wine-p1 > h3 {
-    padding-bottom: 15px;
-    font-size: 11px;
-}
-
-#wine-h2 {
-    font-size: 11px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    line-height: 15px;
-}
-
-#wine-h2 > h3 {
-    padding-bottom: 15px;
-    font-size: 11px;
+    padding-bottom: 10px;
 }
 
 
@@ -313,7 +306,6 @@ label span {
     background-repeat: no-repeat;
     color: #fff;
     font-size: 12px;
-    margin-top: 20px;
     padding-bottom: 80px;
  }
  
