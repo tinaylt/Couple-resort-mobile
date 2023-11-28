@@ -625,8 +625,11 @@ label span {
 #gourmet-con {
    background-color: #fff;
    align-self: end;
-   font-size: 12px;
    padding: 10px 15px;
+}
+
+#gourmet-con h2 {
+   font-size: 14px;
 }
 
 #gourmet-con span {
@@ -855,7 +858,7 @@ label span {
    transform: rotate(90deg);
 }
 
-.dropdown16 {
+.dropdown16, .dropdown8 {
    margin-bottom: 10px;
 }
 
