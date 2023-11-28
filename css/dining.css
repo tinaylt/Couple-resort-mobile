@@ -253,24 +253,22 @@ label span {
 
 /*reward*/
 
-#gourmet-h2 {
+#gourmet-heading-box {
     background-image: url(../images/wine-hero.jpg);
-    height: px;
+    height: 280px;
+
 }
 
-
-.wine-reward img {
+#wine-reward img {
     width: 91px;
     height: 168px;
     padding-top: 10px;
 }
 
 #gourmet-h2 {
-    align-self: end;
     background-color: white;
-    font-size: 12px;
-    padding: 10px 15px 20px 15px;
 }
+
 
 #gourmet-h2 span {
     color: #9a2018;
