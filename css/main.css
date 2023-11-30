@@ -98,11 +98,18 @@ Couples Resort Responsive Build
     margin-bottom: 10px;
 }
  
- 
  #logo {
     margin-bottom: 20px;
     max-width: 382px;
 }
+/*interaction*/
+
+#burger-con a:hover {
+   color: #9A2018;
+   font-weight: bold;
+}
+
+
 
  /* 3. ---Main Hero Image--- */
  
@@ -400,6 +407,14 @@ Couples Resort Responsive Build
     background-color: #626262;
     border-radius: 0;
  }
+
+#contact-hero-form input[type="text"]:focus {
+   border: 2px solid greenyellow;
+}
+
+ /*Interaction*/
+
+#
  
  
  /* 8. ---Footer--- */
@@ -441,27 +456,6 @@ Couples Resort Responsive Build
  #dining-hero {
    background-image: url(../images/Dinning-hero.jpg);
    height: 230px;
-}
-
-.book-now {
-   background-color: #9a2018;
-   color: #fff;
-   font-size: 16px;
-   transition: background-color 500ms linear;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-style: italic;
-   transition:all 0.3s ease;
-   cursor: pointer;
-}
-
-.book-now:hover {
-   background-color: #3B3B3B;
-}
-
-#book-now-hero {
-   height: 67px;
 }
 
 #hero-heading-box-dining {
@@ -517,7 +511,7 @@ label span {
    display: none;
 }
 
-.dropdown1 input:checked ~ #dropdown-detail-1 {
+.dropdown1 input:checked ~ #dropdown-detail-1{
    display: block;
 }
 
@@ -607,6 +601,11 @@ label span {
 
 #dropdown-detail-1 span, #dropdown-detail-2 span, #dropdown-detail-3 span, #dropdown-detail-4 span, #dropdown-detail-5 span, #dropdown-detail-6 span, #dropdown-detail-7 span, #dropdown-detail-8 span {
    font-weight: bold;
+}
+
+.drop-down-time::after {
+   content: "\01F556";
+   padding-left: 5px;
 }
 
 /*reward*/
@@ -723,45 +722,9 @@ label span {
 
 /*main-hero*/
 
-#hero {
+#spa-page-hero {
    background-image: url(../images/spa-hero.jpg);
    height: 230px;
-}
-
-.book-now {
-   background-color: #9a2018;
-   color: #fff;
-   font-size: 16px;
-   transition: background-color 500ms linear;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-style: italic;
-   transition:all 0.3s ease;
-   cursor: pointer;
-}
-
-.book-now:hover {
-   background-color: #3B3B3B;
-}
-
-#book-now-hero {
-   height: 67px;
-}
-
-#hero-heading-box {
-   align-self: end;
-   background-color: white;
-}
-
-#hero-heading-box h2 span {
-   color: #9a2018;
-   font-size: 12px;
-}
-
-#hero-heading-box h2 {
-   font-size: 14px;
-   padding: 10px 15px;
 }
 
 /*dropdown-extension*/
