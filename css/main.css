@@ -109,8 +109,6 @@ Couples Resort Responsive Build
    font-weight: bold;
 }
 
-
-
  /* 3. ---Main Hero Image--- */
  
  #hero {
@@ -408,14 +406,19 @@ Couples Resort Responsive Build
     border-radius: 0;
  }
 
-#contact-hero-form input[type="text"]:focus {
-   border: 2px solid greenyellow;
+#contact-hero-form input[type="text"]:valid {
+   border: 2px solid green;
 }
 
- /*Interaction*/
+.submit-button::after {
+   content: completed!;
+}
 
-#
- 
+/**/
+
+
+
+
  
  /* 8. ---Footer--- */
  
