@@ -217,14 +217,34 @@
                     FAX:+1 613 638 2217<br>
                     E-mail: info[at]coupleresort.com </p>         
             </div>
+
+
             <div id="contact-hero-form" class="col-span-full">
                 <form action="#" method="post" enctype="text/plain">
-                    <input name="fullName" type="text" required placeholder="First & Last Name">
+                    
+                    <label for="name">First & last Name:</label>
+                    <input id="name" name="name" type="text" required/>
+                    <span></span>
+                    
+                    <label for="contact">Phone number or Email:</label>
+                    <input id="contact" name="name" type="text" required/>
+                    <span></span>
+
+                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <span></span>
+
+                </div>
+
+                <div id="send-button" class="col-start-3 col-span-4">
+                <input type="submit" value="Send">
+                </div>
+                
+                    <!--</label>></label><input name="fullName" type="text" required placeholder="First & Last Name">
                     <input name="contactInfo" type="text" required placeholder="Phone number or Email">
                     <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
-                    <input type="submit" value="Send" class="submit-button">
+                    <input type="submit" value="Send" class="submit-button">-->
                 </form>
-            </div>
+
         </section>
             
         <footer id="footer-hero" class="grid-con">        
